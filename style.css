@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+*:not(i) {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.fw-semibold {
+  font-weight: 600 !important;
+}
+
+.fw-extrabold {
+  font-weight: 800 !important;
+}
+
+.text-cursive {
+  font-family: "Sacramento", cursive !important;
+}
+
+html {
+  scroll-padding-top: 58px;
+}
+
+body {
+  padding-top: 58px;
+}
+
+section {
+  padding-top: 58px;
+  padding-bottom: 58px;
+}
+
+.navbar-brand {
+  border: solid var(--accent-4) 3px;
+  padding-right: 0.65em;
+  padding-left: 0.65em;
+  border-radius: 16px;
+}
+
+#Home {
+  background-image: url("./home-background.jpeg");
+  background-image: url(https://cdn.pixabay.com/photo/2022/04/01/09/08/particles-7104407_640.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  min-height: 400px;
+}
+
+#Home .btn {
+  border: solid 2px transparent;
+}
+
+#Home .btn:hover {
+  background-color: transparent !important;
+  border: solid 2px var(--accent-4);
+  color: var(--accent-4) !important;
+}
+
+.skills-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: square;
+}
